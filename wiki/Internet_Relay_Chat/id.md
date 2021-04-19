@@ -1,10 +1,9 @@
----
-outdated: true
----
-
 # Internet Relay Chat
 
+*Untuk informasi lebih lanjut, silahkan lihat: [Internet Relay Chat (Wikipedia)](https://id.wikipedia.org/wiki/IRC "Wikipedia")*
+
 [Internet Relay Chat](https://id.wikipedia.org/wiki/IRC), dikenal juga sebagai IRC, adalah sebuah protokol standar yang sering digunakan untuk mengobrol dengan banyak pengguna lain yang tersedia.
+IRC muncul sebagai saluran komunikasi pintu belakang yang menarik yang meliput kejadian-kejadian penting. Pada saat alat-alat komunikasi tradisional tak dapat berfungsi dengan baik, IRC dapat menjadi alternatif yang dapat diandalkan.
 
 ## osu!Bancho
 
@@ -27,10 +26,12 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server.
 
 | Perintah | Deskripsi |
 | :-- | :-- |
-| `/join <#channel>` | Bergabung ke channel |
-| `/part <#channel>` | Meninggalkan channel |
+| `/join <#channel>` | Bergabung ke kanal |
+| `/part <#channel>` | Meninggalkan kanal |
 | `/me <action>` | Mengirim pesan aksi |
 | `/ignore <username>` | Mengabaikan pengguna (menyembunyikan pesan mereka) |
+| `/query <username>` | Membuka kanal percakapan pribadi dengan pengguna lain (ganti spasi dengan tanda garis bawah) |
+
 
 ## Menonaktifkan Pemberitahuan Masuk/Meninggalkan
 
@@ -55,7 +56,7 @@ Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanal
 | [ircII](http://www.eterna.com.au/ircii/) | Ketik `/ignore * crap` |
 | [Irssi](https://irssi.org) | Ketik `/ignore -channels #somechannel * JOINS PARTS QUITS` |
 | [Weechat](https://weechat.org/) | Ketik `/filter add irc_smart_weechat irc.username.#channel irc_smart_filter *`. **Catatan:** Ganti **username** dengan nama pengguna osu! anda. |
-| [KVIrc](https://www.kvirc.net/) | Kunjungi [utas ini](http://www.kvirc.ru/forum/?topic=609.0) di forum resmi KVIrc |
+| [KVIrc](https://www.kvirc.net/) | Kunjungi [tautan ini](http://www.kvirc.ru/forum/?topic=609.0) di forum resmi KVIrc |
 | [mIRC](https://www.mirc.com/) | Buke Pengaturan mIRC (Tools - Options / Alt + O), di bawah IRC, klik tombol "Events..." dan ganti Joins and Parts menjadi "Hide" |
 | [Quassel IRC](https://quassel-irc.org/) | Klik kanan di jendela obrolan, lalu pilih Hide Events » Join/Part/Quit. |
 | [XChat](http://xchat.org/) | Ketik `/set irc_conf_mode 1` (atau [2](http://xchat.org/faq/#q211) untuk menonaktifkan pemberitahuan dari seluruh channel). |
@@ -73,8 +74,9 @@ Jika klien yang anda pakai tidak tercantum di sini, ikuti dokumentasi yang terse
 
 Tidak. Anda hanya dapat menggunakan nama pengguna osu! anda.
 
-### Apa fungsi status suara yang saya miliki ini? Saya juga melihat beberapa orang memilikinya
+### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda ?
 
-Semua pengguna dengan *status suara* terhubung menggunakan klien IRC, kecuali moderator chat yang selalu memiliki status *operator (+o)* terlepas dari klien apapun yang mereka gunakan.
+Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di mana setiap pengguna dapat menggunakanya. Di osu!Bancho terdapat dua mode yang digunakan untuk mewakilkan kelompok khusus pengguna obrolan:
 
-Pengguna yang tidak memiliki status, terhubung menggunakan klien osu!.
+- `+`, atau "voice status": pengguna terhubung dengan klien IRC eksternal
+- `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) or [NAT](/wiki/NAT))
