@@ -55,7 +55,7 @@ Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanal
 | [HexChat](https://hexchat.github.io/) | Buka Pengaturan - Pengaturan, di bawah Obrolan - Umum, centang "Sembunyikan pesan gabung dan pisah" |
 | [ircII](http://www.eterna.com.au/ircii/) | Ketik `/ignore * crap` |
 | [Irssi](https://irssi.org) | Ketik `/ignore -channels #somechannel * JOINS PARTS QUITS` |
-| [Weechat](https://weechat.org/) | Ketik `/filter add irc_smart_weechat irc.username.#channel irc_smart_filter *`. **Catatan:** Ganti **username** dengan nama pengguna osu! anda. |
+| [Weechat](https://weechat.org/) | Ketik `/filter add irc_smart_weechat irc.username.#channel irc_smart_filter *`. **Catatan:** Ganti **username** dengan nama pengguna osu! Anda. |
 | [KVIrc](https://www.kvirc.net/) | Kunjungi [tautan ini](http://www.kvirc.ru/forum/?topic=609.0) di forum resmi KVIrc |
 | [mIRC](https://www.mirc.com/) | Buke Pengaturan mIRC (Tools - Options / Alt + O), di bawah IRC, klik tombol "Events..." dan ganti Joins and Parts menjadi "Hide" |
 | [Quassel IRC](https://quassel-irc.org/) | Klik kanan di jendela obrolan, lalu pilih Hide Events » Join/Part/Quit. |
@@ -72,11 +72,11 @@ Jika klien yang anda pakai tidak tercantum di sini, ikuti dokumentasi yang terse
 
 ### Dapatkah saya menggunakan nama pengguna lain?
 
-Tidak. Anda hanya dapat menggunakan nama pengguna osu! anda.
+Tidak. Anda hanya dapat menggunakan nama pengguna osu! Anda.
 
 ### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda ?
 
-Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di mana setiap pengguna dapat menggunakanya. Di osu!Bancho terdapat dua mode yang digunakan untuk mewakilkan kelompok khusus pengguna obrolan:
+Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di mana setiap pengguna dapat menggunakannya. Di osu!Bancho terdapat dua mode yang digunakan untuk mewakilkan kelompok khusus pengguna obrolan:
 
 - `+`, atau "voice status": pengguna terhubung dengan klien IRC eksternal
 - `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) or [NAT](/wiki/NAT))
