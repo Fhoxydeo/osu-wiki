@@ -7,9 +7,9 @@ IRC muncul sebagai saluran komunikasi pintu belakang yang menarik yang meliput k
 
 ## osu!Bancho
 
-osu!Bancho menyediakan gateway untuk mengakses IRC (obrolan dalam game). Anda dapat terhubung dengan klien anda sendiri dan mulai obrolan dengan orang lain tanpa harus menggunakan klien osu!. Mohon perhatikan bahwa prokotol IRC ini telah dimodifikasi oleh karena itu jangan harap fitur klien anda berfungsi dengan benar.
+osu!Bancho menyediakan gateway untuk mengakses IRC (obrolan dalam game). Anda dapat terhubung dengan klien Anda sendiri dan mulai obrolan dengan orang lain tanpa harus menggunakan klien osu!. Mohon perhatikan bahwa prokotol IRC ini telah dimodifikasi oleh karena itu jangan harap fitur klien Anda berfungsi dengan benar.
 
-**Pemberitahuan: [HexChat](https://hexchat.github.io/) diketahui memiliki masalah dengan IRC osu!** ([laporan bug dari GitHub HexChat](https://github.com/hexchat/hexchat/issues/818)), jika hal ini mengganggu anda, pertimbangkan untuk menggunakan klien lain .
+**Pemberitahuan: [HexChat](https://hexchat.github.io/) diketahui memiliki masalah dengan IRC osu!** ([laporan bug dari GitHub HexChat](https://github.com/hexchat/hexchat/issues/818)), jika hal ini mengganggu Anda, pertimbangkan untuk menggunakan klien lain .
 
 ## Cara Menghubungkan
 
@@ -17,10 +17,10 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server.
 
 - **Server:** `irc.ppy.sh`
 - **Port:** `6667` (standar)
-- **Username:** Nama pengguna osu! anda (ganti spasi dengan garis bawah)
+- **Username:** Nama pengguna osu! Anda (ganti spasi dengan garis bawah)
 - **Password:** Dapatkan di [Otentikasi IRC](https://osu.ppy.sh/p/irc).
 
-*Kata sandi IRC anda berbeda dengan kata sandi akun osu! anda. **Jangan dibagikan kepada orang lain**.*
+*Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
 
 ## Perintah Dasar IRC
 
@@ -35,7 +35,7 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server.
 
 ## Menonaktifkan Pemberitahuan Masuk/Meninggalkan
 
-Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanalnya sangat ramai seperti `#osu`, anda akan menerima pemberitahuan masuk/meninggalkan terus menerus dan tidak dapat mengikuti percakapan. Oleh karena itu, biasanya pesan-pesan ini lebih disarankan untuk disembunyikan.
+Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanalnya sangat ramai seperti `#osu`, Anda akan menerima pemberitahuan masuk/meninggalkan terus menerus dan tidak dapat mengikuti percakapan. Oleh karena itu, biasanya pesan-pesan ini lebih disarankan untuk disembunyikan.
 
 ```
 [17:46] * lauripihl (cho@ppy.sh) telah meninggalkan #lobby
@@ -61,14 +61,14 @@ Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanal
 | [Quassel IRC](https://quassel-irc.org/) | Klik kanan di jendela obrolan, lalu pilih Hide Events » Join/Part/Quit. |
 | [XChat](http://xchat.org/) | Ketik `/set irc_conf_mode 1` (atau [2](http://xchat.org/faq/#q211) untuk menonaktifkan pemberitahuan dari seluruh channel). |
 
-Jika klien yang anda pakai tidak tercantum di sini, ikuti dokumentasi yang tersedia, sebagian besar klien memiliki cara untuk menonaktifkannya.
+Jika klien yang Anda pakai tidak tercantum di sini, ikuti dokumentasi yang tersedia, sebagian besar klien memiliki cara untuk menonaktifkannya.
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Saya mendapat kesalahan "Token Otentikasi Salah"
 
-1. Pastikan anda menggunakan kata sandi dari halaman [Otentikasi IRC](https://osu.ppy.sh/p/irc).
-2. Jika nama pengguna osu! anda memiliki spasi, ganti dengan garis bawah (misalnya **This Username** menjadi **This_Username**)
+1. Pastikan Anda menggunakan kata sandi dari halaman [Otentikasi IRC](https://osu.ppy.sh/p/irc).
+2. Jika nama pengguna osu! Anda memiliki spasi, ganti dengan garis bawah (misalnya **This Username** menjadi **This_Username**)
 
 ### Dapatkah saya menggunakan nama pengguna lain?
 
