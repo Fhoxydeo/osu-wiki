@@ -79,4 +79,4 @@ Tidak. Anda hanya dapat menggunakan nama pengguna osu! Anda.
 Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di mana setiap pengguna dapat menggunakannya. Di osu!Bancho terdapat dua mode yang digunakan untuk mewakilkan kelompok khusus pengguna obrolan:
 
 - `+`, atau "voice status": pengguna terhubung dengan klien IRC eksternal
-- `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) or [NAT](/wiki/NAT))
+- `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) atau [NAT](/wiki/NAT))
