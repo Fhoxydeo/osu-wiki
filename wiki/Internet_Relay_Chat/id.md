@@ -78,7 +78,7 @@ Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di man
 - `+`, atau "voice status": pengguna terhubung dengan klien IRC eksternal
 - `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) atau [NAT](/wiki/NAT))
 
-Pengguna yang terhubung via klien osu! atau website 
+Pengguna yang terhubung melalui klien osu! atau website tidak mempunyai prefix.
 
 ### Seseorang mengirim pesan, tetapi mereka tidak ada dalam daftar pengguna kanal!
 
