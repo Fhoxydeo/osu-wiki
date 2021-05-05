@@ -69,7 +69,7 @@ Tidak.
 
 ### Bagaimana Saya menulis nama pengguna lain dengan cepat?
 
-Ketik beberapa kata pertama dari nama pengguna, lalu tekan `Tab` untuk autocompletion.
+Ketik beberapa kata pertama dari nama pengguna, lalu tekan `Tab` untuk memunculkan nama pengguna dengan lengkap secara otomatis.
 
 ### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda?
 
