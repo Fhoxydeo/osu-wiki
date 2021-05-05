@@ -21,7 +21,7 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server (Anda mungkin
 
 *Catatan: Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
 
-## Perintah Dasar IRC
+## Perintah dasar IRC
 
 | Perintah | Deskripsi |
 | :-- | :-- |
