@@ -71,7 +71,7 @@ Tidak.
 
 Ketik beberapa kata pertama dari nama pengguna, lalu tekan `Tab` untuk autocompletion.
 
-### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda ?
+### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda?
 
 Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di mana setiap pengguna dapat menggunakannya. Di osu!Bancho terdapat dua mode yang digunakan untuk mewakilkan kelompok khusus pengguna obrolan:
 
