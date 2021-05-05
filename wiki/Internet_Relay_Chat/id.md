@@ -1,26 +1,25 @@
 # Internet Relay Chat
 
-*Untuk informasi lebih lanjut, silahkan lihat: [Internet Relay Chat (Wikipedia)](https://id.wikipedia.org/wiki/IRC "Wikipedia")*
+*Untuk informasi lebih lanjut, lihat: [Internet Relay Chat (Wikipedia)](https://id.wikipedia.org/wiki/IRC "Wikipedia")*
 
 [Internet Relay Chat](https://id.wikipedia.org/wiki/IRC), dikenal juga sebagai IRC, adalah sebuah protokol standar yang sering digunakan untuk mengobrol dengan banyak pengguna lain yang tersedia.
-IRC muncul sebagai saluran komunikasi pintu belakang yang menarik yang meliput kejadian-kejadian penting. Pada saat alat-alat komunikasi tradisional tak dapat berfungsi dengan baik, IRC dapat menjadi alternatif yang dapat diandalkan.
 
 ## osu!Bancho
 
-osu!Bancho menyediakan gateway untuk mengakses IRC (obrolan dalam game). Anda dapat terhubung dengan klien Anda sendiri dan mulai obrolan dengan orang lain tanpa harus menggunakan klien osu!. Mohon perhatikan bahwa prokotol IRC ini telah dimodifikasi oleh karena itu jangan harap fitur klien Anda berfungsi dengan benar.
+*Pemberitahuan: server ini hanya menyediakan sebagian penerapan dari protokol IRC. beberapa fitur tak berdasar contohnya [HexChat](https://hexchat.github.io/) mungkin tidak bekerja dengan baik atau tidak sama sekali.
 
-**Pemberitahuan: [HexChat](https://hexchat.github.io/) diketahui memiliki masalah dengan IRC osu!** ([laporan bug dari GitHub HexChat](https://github.com/hexchat/hexchat/issues/818)), jika hal ini mengganggu Anda, pertimbangkan untuk menggunakan klien lain .
+*osu!Bancho* (atau hanya *Bancho*) menawarkan untuk mengakses IRC (in-game chat). Anda bisa menggunakan beberapa klien IRC modern untuk terhubung (skrol ke bawah untuk daftar yang paling populer).
 
 ## Cara Menghubungkan
 
-Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server.
+Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server (Anda mungkin perlu untuk menambah server dahulu) .
 
 - **Server:** `irc.ppy.sh`
-- **Port:** `6667` (standar)
-- **Username:** Nama pengguna osu! Anda (ganti spasi dengan garis bawah)
+- **Username:** Nama pengguna osu! Anda, contoh (`beppy master 1000` menjadi `beppy_master_1000`)
+- **Port:** `6667` 
 - **Password:** Dapatkan di [Otentikasi IRC](https://osu.ppy.sh/p/irc).
 
-*Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
+*Peringatan: Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
 
 ## Perintah Dasar IRC
 
@@ -30,49 +29,47 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server.
 | `/part <#channel>` | Meninggalkan kanal |
 | `/me <action>` | Mengirim pesan aksi |
 | `/ignore <username>` | Mengabaikan pengguna (menyembunyikan pesan mereka) |
+| `/away <message>` | Meninggalkan pesan untuk semua yang mencoba menghubungimu |
+| `/away` | Menghapus pesan tinggal |
 | `/query <username>` | Membuka kanal percakapan pribadi dengan pengguna lain (ganti spasi dengan tanda garis bawah) |
-
-
-## Menonaktifkan Pemberitahuan Masuk/Meninggalkan
-
-Mengetahui pemain yang masuk atau meninggalkan adalah hal baik, namun jika kanalnya sangat ramai seperti `#osu`, Anda akan menerima pemberitahuan masuk/meninggalkan terus menerus dan tidak dapat mengikuti percakapan. Oleh karena itu, biasanya pesan-pesan ini lebih disarankan untuk disembunyikan.
-
-```
-[17:46] * lauripihl (cho@ppy.sh) telah meninggalkan #lobby
-[17:46] * Kastun (cho@ppy.sh) bergabung ke #lobby
-[17:46] * AuReL (cho@ppy.sh) bergabung ke #lobby
-[17:46] * osukd (cho@ppy.sh) bergabung ke #lobby
-[17:46] * BreadTooGood (cho@ppy.sh) bergabung ke #lobby
-[17:46] * keanyew18 (cho@ppy.sh) bergabung ke #lobby
-[17:46] * JaKox (cho@ppy.sh) bergabung ke #lobby
-[17:46] * Kerantor (cho@ppy.sh) bergabung ke #lobby
-```
 
 ### Menonaktifkan Pemberitahuan Masuk/Meninggalkan Pada Klien IRC
 
-| Klien IRC | Deskripsi |
-| :-- | :-- |
-| [HexChat](https://hexchat.github.io/) | Buka Pengaturan - Pengaturan, di bawah Obrolan - Umum, centang "Sembunyikan pesan gabung dan pisah" |
-| [ircII](http://www.eterna.com.au/ircii/) | Ketik `/ignore * crap` |
-| [Irssi](https://irssi.org) | Ketik `/ignore -channels #somechannel * JOINS PARTS QUITS` |
-| [Weechat](https://weechat.org/) | Ketik `/filter add irc_smart_weechat irc.username.#channel irc_smart_filter *`. **Catatan:** Ganti **username** dengan nama pengguna osu! Anda. |
-| [KVIrc](https://www.kvirc.net/) | Kunjungi [tautan ini](http://www.kvirc.ru/forum/?topic=609.0) di forum resmi KVIrc |
-| [mIRC](https://www.mirc.com/) | Buke Pengaturan mIRC (Tools - Options / Alt + O), di bawah IRC, klik tombol "Events..." dan ganti Joins and Parts menjadi "Hide" |
-| [Quassel IRC](https://quassel-irc.org/) | Klik kanan di jendela obrolan, lalu pilih Hide Events » Join/Part/Quit. |
-| [XChat](http://xchat.org/) | Ketik `/set irc_conf_mode 1` (atau [2](http://xchat.org/faq/#q211) untuk menonaktifkan pemberitahuan dari seluruh channel). |
+Pada dasarnya, beberapa klien IRC memberitahumu ketika pengguna bergabung atau pergi meninggalkan kanal. Untuk jaringan seperti osu!Bancho dengan ribuan pengguna yang sering bergabung dan pergi, pesan semacam itu menjadi sebuah spam, yang mungkin ingin Anda sembunyikan. Beberapa daftar klien IRC yang umum dan cara menonaktifkan pesan tersebut dijelaskan di bawah ini:
 
-Jika klien yang Anda pakai tidak tercantum di sini, ikuti dokumentasi yang tersedia, sebagian besar klien memiliki cara untuk menonaktifkannya.
+| IRC client | Deskripsi |
+| :-- | :-- |
+| [HexChat](https://hexchat.github.io/ "GitHub") | Cek "Hide join and part messages" dibawah `Settings` -> `Preferences` -> `Chatting` -> `General` (Advanced pre-2.9.6)  |
+| [ircII](http://www.eterna.com.au/ircii/ "ircII") | Ketik `IGNORE * CRAP` |
+| [Irssi](https://irssi.org "Irssi") | Ketik `/ignore * JOINS PARTS QUITS` |
+| [Weechat](https://weechat.org/ "Weechat") | Ketik `/filter add joinquit * irc_join,irc_part,irc_quit *` |
+| [KVIrc](https://www.kvirc.net/ "KVIrc") | (Merujuk ke [the KVIrc wiki page](https://github.com/kvirc/KVIrc/wiki/FAQ#how-do-i-suppress-join-part-and-quit-messages "GitHub")) |
+| [mIRC](https://www.mirc.com/ "mIRC") | Buka pengaturan mIRC (`Tools` -> `Options`, atau `Alt` + `O`), pilih `IRC`, tekan `Events...`  dan pilih `Hide` untuk bergabung dan pergi |
+| [Quassel IRC](https://quassel-irc.org/ "Quassel IRC") | Klik kanan di dalam chat dan pilih Joins/Parts/Quits di "Hide Events" menu |
+| [XChat](http://xchat.org/ "XChat") | Ketik `/set irc_conf_mode 1` |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Saya mendapat kesalahan "Token Otentikasi Salah"
+### Saya tidak bisa bergabung
 
-1. Pastikan Anda menggunakan kata sandi dari halaman [Otentikasi IRC](https://osu.ppy.sh/p/irc).
-2. Jika nama pengguna osu! Anda memiliki spasi, ganti dengan garis bawah (misalnya **This Username** menjadi **This_Username**)
+osu!Bancho menggunakan otentikasi teks biasa - pastikan tidak ada mode otentikasi khusus yang dipilih dalam pengaturan klien IRC Anda.
+
+Alternatifnya, gunakan alamat server yang berbeda, `cho.ppy.sh` (Anda akan tetap terhubung dengan osu!Bancho).
+
+### Saya mendapatkan kesalahan "Bad Authentication Token"
+
+Ikuti cara ini:
+
+1. Pastikan Anda menggunakan password yang benar dari [IRC Authentication page](https://osu.ppy.sh/p/irc).
+2. Jika nama penggunamu menggunakan Spasi, gantilah dengan garis bawah, seperti contoh: (`This Username` menjadi `This_Username`).
 
 ### Dapatkah saya menggunakan nama pengguna lain?
 
-Tidak. Anda hanya dapat menggunakan nama pengguna osu! Anda.
+Tidak.
+
+### Bagaimana Saya menulis nama pengguna lain dengan cepat?
+
+Ketik beberapa kata pertama dari nama pengguna, lalu tekan `Tab` untuk autocompletion.
 
 ### Mengapa beberapa nama pengguna diawali dengan tanda yang berbeda ?
 
@@ -80,3 +77,9 @@ Konsep IRC pada umumnya memiliki beberapa mode kanal atau sekumpulan aksi di man
 
 - `+`, atau "voice status": pengguna terhubung dengan klien IRC eksternal
 - `@`, or "chat operator status": pengguna adalah seorang moderator ([GMT](/wiki/GMT) atau [NAT](/wiki/NAT))
+
+Pengguna yang terhubung via klien osu! atau website 
+
+### Seseorang mengirim pesan, tetapi mereka tidak ada dalam daftar pengguna kanal!
+
+Mereka menggunakan [versi web chat](https://osu.ppy.sh/community/chat) atau terhubung via [osu!lazer](https://github.com/ppy/osu "GitHub").
