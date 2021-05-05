@@ -19,7 +19,7 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server (Anda mungkin
 - **Port:** `6667` 
 - **Password:** Dapatkan di [Otentikasi IRC](https://osu.ppy.sh/p/irc).
 
-*Peringatan: Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
+*Catatan: Kata sandi IRC Anda berbeda dengan kata sandi akun osu! Anda. **Jangan dibagikan kepada orang lain**.*
 
 ## Perintah Dasar IRC
 
