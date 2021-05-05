@@ -33,7 +33,7 @@ Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server (Anda mungkin
 | `/away` | Menghapus pesan tinggal |
 | `/query <username>` | Membuka kanal percakapan pribadi dengan pengguna lain (ganti spasi dengan tanda garis bawah) |
 
-### Menonaktifkan Pemberitahuan Masuk/Meninggalkan Pada Klien IRC
+## Menonaktifkan pesan JOIN/PART/QUIT
 
 Pada dasarnya, beberapa klien IRC memberitahumu ketika pengguna bergabung atau pergi meninggalkan kanal. Untuk jaringan seperti osu!Bancho dengan ribuan pengguna yang sering bergabung dan pergi, pesan semacam itu menjadi sebuah spam, yang mungkin ingin Anda sembunyikan. Beberapa daftar klien IRC yang umum dan cara menonaktifkan pesan tersebut dijelaskan di bawah ini:
 
