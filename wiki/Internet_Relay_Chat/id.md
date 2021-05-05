@@ -10,7 +10,7 @@
 
 *osu!Bancho* (sering disingkat menjadi *Bancho*) menawarkan untuk mengakses IRC (in-game chat). Anda dapat menggunakan klien IRC apa pun untuk terhubung ke osu!Bancho (lihat daftar IRC di bawah yang paling umum digunakan).
 
-## Cara Menghubungkan
+## Cara menghubungkan
 
 Setelah Anda memiliki klien, Anda perlu mengatur pengaturan server (Anda mungkin perlu untuk menambah server dahulu) .
 
