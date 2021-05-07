@@ -60,7 +60,7 @@ Alternatifnya, gunakan alamat server yang berbeda, `cho.ppy.sh` (Anda akan tetap
 
 Ikuti cara ini:
 
-1. Pastikan Anda menggunakan password yang benar dari [IRC Authentication page](https://osu.ppy.sh/p/irc).
+1. Pastikan Anda menggunakan password yang sesuai yang didapatkan dari [halaman otentikasi IRC](https://osu.ppy.sh/p/irc).
 2. Jika nama penggunamu menggunakan spasi, gantilah dengan garis bawah (contoh: `This Username` menjadi `This_Username`).
 
 ### Dapatkah saya menggunakan nama pengguna lain?
