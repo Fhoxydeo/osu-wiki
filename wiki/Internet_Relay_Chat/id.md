@@ -48,7 +48,7 @@ Pada dasarnya, beberapa klien IRC memberitahumu ketika pengguna bergabung atau p
 | [Quassel IRC](https://quassel-irc.org/ "Quassel IRC") | Klik kanan di dalam chat dan pilih Joins/Parts/Quits di "Hide Events" menu |
 | [XChat](http://xchat.org/ "XChat") | Ketik `/set irc_conf_mode 1` |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
 ### Saya tidak bisa bergabung
 
